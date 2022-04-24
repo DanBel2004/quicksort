@@ -42,7 +42,7 @@ int main()
     long long int* array = (long long int*)calloc(N, sizeof(long long int));
 
     for (long long int i = 0; i < N; i++)
-        array[i] = rand() % N + (sorted_elements + 1);
+        array[i] = rand() % N;
 
     /*for (long long int i = 0; i < N; i++)
         printf("%lld ", array[i]);
